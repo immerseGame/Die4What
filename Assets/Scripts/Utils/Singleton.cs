@@ -3,6 +3,7 @@
 [DefaultExecutionOrder(-100)]
 public abstract class Singleton<T> : MonoBehaviour where T : MonoBehaviour
 {
+
     protected virtual bool ShouldOverride => false;
     protected virtual bool DestroyOnLoad => true;
 

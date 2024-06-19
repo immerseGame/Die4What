@@ -87,6 +87,7 @@ public static class Extensions
     {
         return RandomUtils.ArrayIndex(array);
     }
+
     public static void Shuffle<T>(this IList<T> list)
     {
         int n = list.Count;
